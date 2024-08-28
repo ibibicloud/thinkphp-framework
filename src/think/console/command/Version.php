@@ -28,7 +28,7 @@ class Version extends Command
 
     protected function execute(Input $input, Output $output)
     {
-        $version = InstalledVersions::getPrettyVersion('topthink/framework');
+        $version = InstalledVersions::getPrettyVersion('ibibicloud/thinkphp-framework');
         $output->writeln($version);
     }
 
