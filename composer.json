@@ -1,0 +1,22 @@
+{
+    "name": "ibibicloud/thinkphp-framework",
+    "keywords": ["thinkphp", "framework", "thinkphp-framework"],
+    "description": "thinkphp框架核心",
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=8.0.0",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ibibicloud/psr-3-log": "*",
+        "ibibicloud/psr-7-http-message": "*",
+        "ibibicloud/psr-11-container": "*",
+        "ibibicloud/psr-16-simple-cache": "*",
+        "ibibicloud/thinkphp-orm": "*",
+        "ibibicloud/thinkphp-helper": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\": "src/think/"
+        }
+    }
+}
