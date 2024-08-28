@@ -301,7 +301,7 @@ class App extends Container
      */
     public function version(): string
     {
-        return ltrim(InstalledVersions::getPrettyVersion('topthink/framework'), 'v');
+        return ltrim(InstalledVersions::getPrettyVersion('ibibicloud/thinkphp-framework'), 'v');
     }
 
     /**
